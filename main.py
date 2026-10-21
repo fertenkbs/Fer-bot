@@ -24,7 +24,7 @@ def _env(name, default=""):
     return os.getenv(name, default).strip().strip('"').strip("'")
 
 
-BOT_TOKEN = _env("BOT_TOKEN", "ВСТАВЬ_БОТ_ТОКЕН")
+BOT_TOKEN = _env("8969998839:AAGZdMJgy_YysFZS8lBQdadTF_tk0QEkA70")
 OWNER_ID = int(_env("OWNER_ID", "0") or 0)          # твой Telegram ID: только ты видишь /admin
 API_KEY = _env("API_KEY", "ВСТАВЬ_API_КЛЮЧ")         # ключ ИИ-провайдера (можно сменить и в админке)
 BASE_URL = _env("BASE_URL", "https://api.basisweb.ru/v1")
