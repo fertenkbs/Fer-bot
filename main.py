@@ -32,7 +32,7 @@ BASE_URL = _env("BASE_URL", "https://api.basisweb.ru/v1")
 CRYPTO_TOKEN = _env("CRYPTO_TOKEN")                   # токен @CryptoBot (Crypto Pay)
 PROVIDER_TOKEN = _env("PROVIDER_TOKEN")               # токен платёжного провайдера для карт (@BotFather → Payments)
 ACTIVATION_KEY = _env("ACTIVATION_KEY", "РусиканглApi#1")  # секретный ключ (работает, если включён в настройках)
-DB = _env("DB_PATH", "data/bot.db")
+DB = _env("DB_PATH", "/data/bot.db")
 # ==========================================================================================
 
 logging.basicConfig(level=logging.INFO)
