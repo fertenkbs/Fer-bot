@@ -29,7 +29,7 @@ ADMIN_IDS = [
     if x.strip().isdigit()
 ]
 
-DB_NAME = "bot_database.db"
+DB_NAME = "/data/bot.db"
 
 logging.basicConfig(level=logging.INFO)
 router = Router()
